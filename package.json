@@ -1,6 +1,7 @@
 {
   "name": "morney-react",
   "version": "0.1.0",
+  "homepage": "https://zhiyangcai.github.io/morney-react-website/",
   "private": true,
   "dependencies": {
     "@babel/core": "7.9.0",
@@ -21,7 +22,9 @@
     "babel-preset-react-app": "^9.1.2",
     "camelcase": "^5.3.1",
     "case-sensitive-paths-webpack-plugin": "2.3.0",
+    "classnames": "^2.2.6",
     "css-loader": "3.4.2",
+    "dayjs": "^1.8.29",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
     "eslint": "^6.6.0",
@@ -89,6 +92,7 @@
     ]
   },
   "devDependencies": {
+    "@types/classnames": "^2.2.10",
     "@types/react-router-dom": "^5.1.5",
     "@types/styled-components": "^5.1.1",
     "@types/webpack-env": "^1.15.2",

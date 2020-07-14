@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './index.scss';
+import 'index.scss';
 
-import * as serviceWorker from './serviceWorker';
+console.log('页面刷新啦')
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+ReactDOM.render(<App/>,
+    document.getElementById('root')
 );
-
-serviceWorker.unregister();
