@@ -63,7 +63,7 @@ const Tag: React.FC = () => {
                 <Icon/>
             </Topbar>
 
-            {tag ? tagContent(tag) : <Center>tag 不存在</Center>}
+            {tag ? tagContent(tag) : <Icon className="nodata" name="nodata"/>}
 
         </Layout>
     );
