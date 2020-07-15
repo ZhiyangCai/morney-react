@@ -33,7 +33,7 @@ function Money() {
     };
     const submit = () => {
         if (addRecord(selected)) {
-            alert('保存成功');
+            alert('保存成功!');
             setSelected(defaultFormData);
         }
     };
